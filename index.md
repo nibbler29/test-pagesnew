@@ -11,6 +11,40 @@ A [Bootstrap 4](https://getbootstrap.com/) template project for [Github Pages](h
 * Recompiles Bootstrap from SCSS files, which allows to customize Bootstrap's variables and use Bootstrap themes.
 * Full support of Bootstrap's JavaScript plugins.
 * Supports all features of Github Pages and Jekyll.
+<h1>Datatables Markdown Demo</h1>
+
+<p>
+  Based on <a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html#jquery-datatables">tutorial</a> for Jekyll.
+</p>
+
+Steps:
+
+1. Add datatables CSS
+   - [https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css](https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css)
+1. Add any custom CSS, like font-family
+1. Add jQuery JS
+   - [https://code.jquery.com/jquery-3.5.1.js](https://code.jquery.com/jquery-3.5.1.js)
+1. Add jQuery datatable JS
+   - [https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js](https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js)
+1. Add table (HTML, or Markdown with pre-processor). No special class is needed, you just need to reference your table next.
+1. Add JS snippet to run jQuery DataTable setup your table.
+
+You datatable will be generated. It will include an entries limit (default 10), a search bar, sorting and pagination.
+
+<br>
+
+<div id="my-table">
+
+<!-- The pre-processor for this pen is set to Markdown   -->
+
+| Food    | Description                           | Category | Sample type |
+| ------- | ------------------------------------- | -------- | ----------- |
+| Apples  | A small, somewhat round ...           | Fruit    | Fuji        |
+| Bananas | A long and curved, often-yellow ...   | Fruit    | Snow        |
+| Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden      |
+| Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel       |
+
+</div>
 
 ## Setup Guide
 
